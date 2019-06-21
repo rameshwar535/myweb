@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /tmp/
+  - source: myweb.war/target/myweb.war
+    destination: /opt/tomcat7/webapps
